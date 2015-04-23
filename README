@@ -1,0 +1,7 @@
+Utility to build the Windows Installer for plunge
+Written in AutoHotkey (http://ahkscript.org/)
+
+1) edit the file paths in "gen_includes.ahk" to point to your local plunge repo
+2) run "gen_includes.ahk". This will generate two files, "create_plunge_dirs.ahk" and "install_plunge_files.ahk"
+3) compile the "plunge runner.ahk" file using nu.ico as the icon
+4) compile the "plunge installer.ahk" file also using nu.ico as the icon
